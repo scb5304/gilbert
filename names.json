@@ -1,0 +1,9 @@
+{
+	"Sunday": ["Test sunday name 1", "Test sunday name 2", "Test sunday name 3"],
+	"Monday": ["Test monday name 1", "Test monday name 2", "Test monday name 3"],
+	"Tuesday": ["Test tuesday name 1", "Test tuesday name 2", "Test tuesday name 3"],
+	"Wednesday": ["Test wednesday name 1", "Test wednesday name 2", "Test wednesday name 3"],
+	"Thursday": ["Test thursday name 1", "Test thursday name 2", "Test thursday name 3"],
+	"Friday": ["Test friday name 1", "Test friday name 2", "Test friday name 3"],
+	"Saturday": ["Test saturday name 1", "Test saturday name 2", "Test saturday name 3"]
+}

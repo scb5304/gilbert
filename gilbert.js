@@ -5,7 +5,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 const token = process.env.DISCORD_TOKEN;
 
-const channelNamesMap = require('./names.json')
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 let changeNameOnStartup = true;
@@ -44,6 +43,7 @@ function checkChannel() {
 }
 
 function setChannelToRandomName() {
+	const channelNamesMap = require('./names.json')
 	let namesPool = channelNamesMap[currentDay]
 	var randomNumber = getRandomInt(0, namesPool.length - 1)
 

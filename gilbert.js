@@ -18,7 +18,7 @@ function onConnected(readyClient) {
 	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 
 	let channelManager = readyClient.channels
-	channelManager.fetch('709288174526136326')
+	channelManager.fetch('1071490185256247397')
 		.then(channel => {
 			targetChannel = channel;
 			console.log(targetChannel.name)
